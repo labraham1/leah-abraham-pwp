@@ -10,19 +10,19 @@ img[alt*="Leah Abraham"] {
     border: white solid 3px;
 }
 
-/*image[alt*="water lilly"]{*/
-/*    max-width:2px;*/
-/*    max-height:2px;*/
-/*    float: left;*/
-/*    margin-right: 5em;*/
-/*    border: white solid 3px;*/
-/*}*/
+image[alt*="water lilly"]{
+    max-width:25%;
+    max-height:15%;
+    float: left;
+    margin-right: 5em;
+    border: white solid 3px;
+}
 
-/*.Trauma {*/
-/*    background-color: pink;*/
-/*    color: white;*/
-/*    padding:10px 20px 20px 100px;*/
-/*}*/
+.hero {
+    background-color: pink;
+    color: white;
+    padding:10px 20px 20px 100px;
+}
 
 #icon1, #icon2, #icon3{
     display: inline-flex;

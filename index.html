@@ -4,77 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leah Abraham PWP</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
 <!--This is the start of my "nav bar" section-->
 
-<header class="bg-pink-400 text-white fixed w-full top-0 z-50">
+<header class="bg-pink-400 font-light uppercase text-white fixed w-full top-0 z-50">
     <nav class="container mx-auto flex justify-between items-center p-4">
         <div class="text-2xl font-bold">Leah Abraham </div>
         <ul class="hidden md:flex space-x-6">
-            <li><a href="#home" class="hover:text-gray-400">| Home</a></li>
-            <li><a href="#about" class="hover:text-gray-400">| About</a></li>
-            <li><a href="#services" class="hover:text-gray-400">| 5Step Healing</a></li>
-            <li><a href="#contact" class="hover:text-gray-400">| Contact</a></li>
+            <li><a href="#home" class="hover:text-gray-400"> Home</a></li>
+            <li><a href="#about" class="hover:text-gray-400"> About</a></li>
+            <li><a href="#services" class="hover:text-gray-400"> 5Step Healing</a></li>
+            <li><a href="#contact" class="hover:text-gray-400"> Contact</a></li>
         </ul>
         <button class="md:hidden text-white focus:outline-none"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg></button>
     </nav>
 </header>
-<!--This is the end of my "nav bar" section-->
 
 
-
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/landscape.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Leah Abraham">
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/leah pink dress.JPG" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-    </div>
-    <!-- Slider indicators -->
-    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-    </div>
-    <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
+<!--&lt;!&ndash;This is the end of my "nav bar" section&ndash;&gt;-->
+<!--<section id= "hero">-->
+<!--<div class="text-center">-->
+<!--    <h1 class="text-5xl font-semibold">Healing Happens in the Space Where Pain and Self Love Come Together</h1>-->
+<!--</div>-->
+<!--</section>-->
 
 
 <!--This is the start of my "about me section"-->
@@ -95,26 +50,26 @@
 <!--This is the end of my "about me section"-->
 
 <!--    This is the start of my "learn more section"-->
-<section class="bg-pink-300 py-12">
-    <div class="container flex flex-row mx-auto px-4 md: px-8">
-        <div class=" flex-left"></div>
-        <img src="/images/sunflower.JPG" height="300" width="300"/>
-    </div>
-    <button class="bg-pink-100 hover:bg-green-500 text-black font-bold py-2 px-4 rounded-full">
-    Learn More About The 5Step Healing Process
-</button>
+<!--<section class="bg-pink-300 py-12">-->
+<!--    <div class="container flex flex-row mx-auto px-4 md: px-8">-->
+<!--        <div class=" flex-left"></div>-->
+<!--        <img src="/images/sunflower.JPG" height="300" width="300"/>-->
+<!--    </div>-->
+<!--    <button class="bg-pink-100 hover:bg-green-500 text-black font-bold py-2 px-4 rounded-full">-->
+<!--    Learn More About The 5Step Healing Process-->
+<!--</button>-->
 
-</section>
-<section class="container">
-<!--        <div class=>-->
-<!--            <div class=" flex flex-col md:flex-row items-start gap-8">-->
-        <img src="/images/water lilly.JPG" alt="water lilly"/>
-            </div>
-    <button class="bg-pink-100 hover:bg-green-500 text-black font-bold py-2 px-4 rounded-full">
-        Learn More About Trauma Drama Thursdays
-    </button>
-        </div>
-</section>
+<!--</section>-->
+<!--<section class="container">-->
+<!--&lt;!&ndash;        <div class=>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class=" flex flex-col md:flex-row items-start gap-8">&ndash;&gt;-->
+<!--        <img src="/images/water lilly.JPG" alt="water lilly"/>-->
+<!--            </div>-->
+<!--    <button class="bg-pink-100 hover:bg-green-500 text-black font-bold py-2 px-4 rounded-full">-->
+<!--        Learn More About Trauma Drama Thursdays-->
+<!--    </button>-->
+<!--        </div>-->
+<!--</section>-->
 <!--this is the end of my "learn more section"-->
 
 
