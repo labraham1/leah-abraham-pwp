@@ -93,32 +93,28 @@ nav ul li a{
         height: auto;
     }
 }
-/*img[alt*="Leah Abraham"] {*/
-/*    max-width: 25%;*/
-/*    max-height: 15%;*/
-/*    float: left;*/
-/*    margin-right: 5em;*/
-/*    border: white solid 3px;*/
-/*}*/
 
-/*.instructions-wrapper {*/
-/*    border: yellow solid 4px;*/
-/*    display: flex;*/
-/*    align-content: end;*/
-/*    margin-top: 35px;*/
-/*    padding: 15px;*/
-/*    margin-bottom: 50px;*/
-/*}*/
+img[alt*="Leah Abraham"] {
+    float: left;
+    margin-top: 15px;
+    border: 10px solid white;
+}
 
-/*!*.about-me{*!*/
-/*!*    display: block;*!*/
-/*!*    float: right;*!*/
-/*!*    padding: 10px 20px 20px 100px;*!*/
-/*!*    font-size: medium;*!*/
-/*!*    font-family: "Arial Unicode MS", cursive;*!*/
-/*!*    border: white solid 3px;*!*/
-/*!*}*!*/
+.welcome{
+    display: flex;
+    float: right;
+    padding: 30px 20px 20px 50px;
+    font-size: medium;
+    font-family: "Arial Unicode MS", cursive;
+    border: white solid 10px;
+}
 
+.hello h2{
+    font-size: 3rem;
+    color: deeppink;
+    font-weight: 600;
+    transition: 0.5s;
+}
 /*!*image[alt*="water lilly"]{*!*/
 /*!*    max-width:25%;*!*/
 /*!*    max-height:15%;*!*/
