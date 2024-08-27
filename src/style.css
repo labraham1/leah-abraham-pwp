@@ -1,12 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*}*/
 
 .hero {
 width: 100%;
@@ -31,7 +31,7 @@ nav {
 }
 
 nav .logo {
-    width: 150px;
+    width: 200px;
 }
 
 nav ul li{
@@ -42,17 +42,19 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: lightpink;
+    color: #f9a6e0;
     font-size: 17px;
 }
 
 .content {
     text-align: center;
+    /*text-align: -webkit-center;*/
+
 }
 
 .content h1 {
     font-size: 2rem;
-    color: lightpink;
+    color: #f9a6e0;
     font-weight: 600;
     transition: 0.5s;
 }
@@ -65,7 +67,7 @@ nav ul li a{
 .content a{
     text-decoration: none;
     display: inline-block;
-    color: lightpink;
+    color: #f9a6e0;
     font-size: 24px;
     border: 2px solid pink;
     padding:14px 70px;
@@ -96,14 +98,14 @@ nav ul li a{
 
 img[alt*="Leah Abraham"] {
     float: left;
-    margin-top: 15px;
+    margin: 30px 100px 30px 30px;
     border: 10px solid white;
 }
 
 .welcome{
     display: flex;
-    float: right;
-    padding: 30px 20px 20px 50px;
+    /*float: right;*/
+    padding: 30px 50px 30px 30px;
     font-size: medium;
     font-family: "Arial Unicode MS", cursive;
     border: white solid 10px;
@@ -111,61 +113,84 @@ img[alt*="Leah Abraham"] {
 
 .hello h2{
     font-size: 3rem;
-    color: deeppink;
+    color: #f9a6e0;
     font-weight: 600;
     transition: 0.5s;
 }
-/*!*image[alt*="water lilly"]{*!*/
-/*!*    max-width:25%;*!*/
-/*!*    max-height:15%;*!*/
-/*!*    float: left;*!*/
-/*!*    margin-right: 5em;*!*/
-/*!*    border: white solid 3px;*!*/
-/*!*}*!*/
 
-/*!*.hero {*!*/
-/*!*    background-color: pink;*!*/
-/*!*    color: white;*!*/
-/*!*    padding:10px 20px 20px 100px;*!*/
-/*!*}*!*/
+.community{
+    margin-top: 80px;
+    border: white solid 10px;
+}
 
-/*#icon1, #icon2, #icon3{*/
-/*    display: inline-flex;*/
-/*    width:48px;*/
-/*    height:48px;*/
-/*}*/
+.container{
+    margin-top: 10px;
+}
 
-/*#linkedin{*/
-/*    text-align:center;*/
-/*    margin:0;*/
-/*    width:42px;*/
-/*    height:42px;*/
-/*}*/
+.container h2{
+   font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
 
-/*#github{*/
-/*    text-align:center;*/
-/*    margin:0;*/
-/*    width:42px;*/
-/*    height:42px;*/
-/*}*/
+img[alt*="5Steps"] {
+    width: 100%;
+    height: 100%;
 
-/*#instagram{*/
-/*    text-align:center;*/
-/*    margin:0;*/
-/*    width:42px;*/
-/*    height:42px;*/
-/*}*/
+}
 
-/*#facebook{*/
-/*    text-align:center;*/
-/*    margin:0;*/
-/*    width:42px;*/
-/*    height:42px;*/
-/*}*/
+.side_float{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 40px;
+}
 
-/*#x{*/
-/*    text-align:center;*/
-/*    margin:0;*/
-/*    width:42px;*/
-/*    height:42px;*/
-/*}*/
+.images-container{
+   width: 75%;
+    margin: auto;
+  }
+
+
+#icon1, #icon2, #icon3{
+    display: inline-flex;
+    width:48px;
+    height:48px;
+}
+
+#linkedin{
+    text-align:center;
+    margin:0;
+    width:42px;
+    height:42px;
+}
+
+#github{
+    text-align:center;
+    margin:0;
+    width:42px;
+    height:42px;
+}
+
+#instagram{
+    text-align:center;
+    margin:0;
+    width:42px;
+    height:42px;
+}
+
+#facebook{
+    text-align:center;
+    margin:0;
+    width:42px;
+    height:42px;
+}
+
+#x{
+    text-align:center;
+    margin:0;
+    width:42px;
+    height:42px;
+}
